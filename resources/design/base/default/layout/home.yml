@@ -1,0 +1,13 @@
+home:
+  document:
+    head:
+      _title: "Laravel"
+      _styles:
+        - "//fonts.googleapis.com/css?family=Lato:100"
+        - "css/welcome.css"
+    content:
+      welcome:
+        _before: "*"
+        _type: template
+        _template: home/welcome.phtml 
+        

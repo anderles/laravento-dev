@@ -1,0 +1,23 @@
+default: # Default Handler - Will be applied to all pages
+  document: # Root Element
+    _type: template
+    _template: layout-1col.phtml # default template for all pages
+    head: # Html Head
+      _type: "document_head"
+      _title: "Laravel Demo Application" # Default title for all pages
+      _meta: 
+          - http-equiv: "Content-Type"
+            content: "text/html; charset=utf-8"
+      _scripts:
+      # - js/common.js
+      _styles:
+      # - "css/style.css"
+    header:
+      _type: template
+      _template: "header.phtml" # Header placeholder
+    breadcrumbs:
+      _type: template
+      _template: "breadcrumbs.phtml" # Breadcrumbs placeholder
+    left: # left Sidebar container
+    right: # Right Sidebar container
+    content: # Content Container

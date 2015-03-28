@@ -11,7 +11,7 @@
 |
 */
 
-$app = new Illuminate\Foundation\Application(
+$app = new \Core\Application(
 	realpath(__DIR__.'/../')
 );
 
@@ -40,6 +40,10 @@ $app->singleton(
 	'Illuminate\Contracts\Debug\ExceptionHandler',
 	'App\Exceptions\Handler'
 );
+
+$app->detectEnvironment(function() {
+	return getenv('APP_ENV') ?: 'production';
+});
 
 /*
 |--------------------------------------------------------------------------

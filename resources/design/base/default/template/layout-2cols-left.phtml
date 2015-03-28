@@ -1,0 +1,26 @@
+<?php
+/** @var Theme\Element\Output\Html\Template  $this */
+?><!DOCTYPE html>
+<html>
+<head>
+<?php echo $this->get('head') ?>
+</head>
+<body>
+<?php echo $this->get('after_body_start') ?>
+    <div class="wrapper">
+        <?php echo $this->get('header') ?>
+        <?php echo $this->get('breadcrumbs')?>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9 pull-right">
+                    <?php echo $this->get('messages') ?>
+                    <?php echo $this->get('content') ?>
+                </div>
+                <div class="col-md-3 pull-left"><?php echo $this->get('left') ?></div>
+            </div>
+        </div>
+        <?php echo $this->get('footer') ?>
+        <?php echo $this->get('before_body_end') ?>
+    </div>
+</body>
+</html>
