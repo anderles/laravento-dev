@@ -16,7 +16,10 @@
 			"database"
 		],
 		"psr-4": {
-			"App\\": "app/"
+			"App\\": "app/",
+			"Core\\": "src/violetbrick/core/src/Core",
+			"Layout\\": "src/violetbrick/layout/src/Layout",
+			"Theme\\": "src/violetbrick/theme/src/Theme"
 		}
 	},
 	"autoload-dev": {

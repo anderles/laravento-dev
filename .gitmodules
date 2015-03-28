@@ -1,0 +1,9 @@
+[submodule "src/violetbrick/core"]
+	path = src/violetbrick/core
+	url = git@github.com:violetbrick/core.git
+[submodule "src/violetbrick/layout"]
+	path = src/violetbrick/layout
+	url = git@github.com:violetbrick/layout.git
+[submodule "src/violetbrick/theme"]
+	path = src/violetbrick/theme
+	url = git@github.com:violetbrick/theme.git
