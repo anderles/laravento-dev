@@ -28,7 +28,7 @@ Route and Event anotation included? see official documentation for details http:
 
 #### Themes and layouts
 
-note: by default and for fallback will be used base/default directory
+*note: by default and for fallback will be used base/default directory*
 
 All layout elements described in:
 
