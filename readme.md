@@ -24,7 +24,7 @@ Apply database migrations:
 
 #### Anotations
 
-Route and Event anotation included? see official documentation for details http://laravelcollective.com/docs/5.0/annotations
+Route and Event anotation already included, see official documentation for details http://laravelcollective.com/docs/5.0/annotations
 
 #### Themes and layouts
 
