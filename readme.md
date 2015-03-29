@@ -22,15 +22,30 @@ Apply database migrations:
 
 ### Development
 
+#### Anotations
+
 Route and Event anotation included? see official documentation for details http://laravelcollective.com/docs/5.0/annotations
 
+#### Themes and layouts
 
-All layout elements described in *config/layout.php*
+note: by default and for fallback will be used base/default directory
 
-Theme settings defined in *config/theme.php*
+All layout elements described in:
 
-Layouts should be placed to *resources/design/{your_package}/{your_theme}/layout* directory
+    config/layout.php
 
-Templates should be placed to *resources/design/{your_package}/{your_theme}/template* directory
+Theme settings defined in:
 
-Assets must be placed to *public/{your_package}/{your_theme}* directory
+    config/theme.php
+
+Layouts should be placed to:
+
+    resources/design/{your_package}/{your_theme}/layout
+
+Templates should be placed to:
+
+    resources/design/{your_package}/{your_theme}/template
+
+Assets must be placed to:
+
+    public/{your_package}/{your_theme}
