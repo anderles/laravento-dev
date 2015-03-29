@@ -1,5 +1,7 @@
 ## Laravel Dev Application
 
+Layout and Element(Block) system like Magento, based on Laravel Framework.
+
 ### Installation
 
 Clone git repository:
