@@ -48,4 +48,4 @@ Templates should be placed to:
 
 Assets must be placed to:
 
-    public/{your_package}/{your_theme}
+    public/design/{your_package}/{your_theme}
