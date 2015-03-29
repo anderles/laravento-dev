@@ -38,7 +38,7 @@ Theme settings defined in:
 
     config/theme.php
 
-Layouts should be placed to:
+All layout files will be included automaticly from:
 
     resources/design/{your_package}/{your_theme}/layout
 
