@@ -6,11 +6,11 @@ Layout and Element(Block) system like Magento, based on Laravel Framework.
 
 Clone git repository:
 
-    git clone git@github.com:violetbrick/app-dev.git
+    git clone git@github.com:violetbrick/laravento-dev.git
   
 Init git submodules:
 
-    cd app-dev
+    cd laravento-dev
     git submodule init
     git submodule update
   
