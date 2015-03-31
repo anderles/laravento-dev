@@ -36,7 +36,7 @@ class AnnotationsServiceProvider extends ServiceProvider {
         foreach (File::allFiles($basePath) as $controller) {
             $controller = substr($controller, strlen($basePath)+1);
             $controller = str_replace('/', '\\', $controller);
-            $controller = basename($controller, '.php');
+            $controller = str_replace('.php', '', $controller);
             $this->scanRoutes[] = "{$nameSpace}\\{$controller}";
         }
         
