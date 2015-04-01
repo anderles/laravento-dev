@@ -6,7 +6,7 @@ Layout, Element(Block) and Admin system like Magento, based on Laravel Framework
 
 Clone git repository:
 
-    git clone git@github.com:anderles/laravento-dev.git
+    git clone git@github.com:violetbrick/laravento-dev.git
   
 Init git submodules:
 
