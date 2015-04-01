@@ -1,6 +1,6 @@
 ## Laravento Application
 
-Layout and Element(Block) system like Magento, based on Laravel Framework.
+Layout, Element(Block) and Admin system like Magento, based on Laravel Framework.
 
 ### Installation
 
@@ -40,7 +40,7 @@ Theme settings defined in:
 
     config/theme.php
 
-All layout files will be included automaticly from:
+All layout files will be included automatically from:
 
     resources/design/{your_package}/{your_theme}/layout
 
